@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/grid/testbed/tb022/CS_lab3-main
+cd /home/grid/testbed/tb410/radixsort-main
 ml icc
 for 0 in {1..3];do
 scr= $(date +%A _%H %M %≤ _%N) 
