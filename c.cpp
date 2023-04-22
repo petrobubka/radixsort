@@ -34,7 +34,7 @@ int main() {
     int count = 400000;
     int array[count];
     int n = sizeof(array) / sizeof(array[0]);
-    for (int j = 0; j < 2000; j++) {
+    for (int j = 0; j < 2500; j++) {
         for (int i = 0; i < n; i++)
             array[i] = rand() % count;
         radixSort(array, n);
